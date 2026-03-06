@@ -61,7 +61,7 @@ $$
 
 ## Get involved
 - **See it live**: [krushak.app](https://krushak.app)
-- **Questions / pilots**: write to hello@krushak.app
+- **Questions / pilots**: write to malkani.ai024@gmail.com
 - **Enterprise rollouts**: tailored deployments on your virtual network with managed model updates.
 
 ## License and contributions

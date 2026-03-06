@@ -7,4 +7,4 @@ This repository is not open for external contributions.
 - Feature requests, patches, and forks may not be merged or adopted.
 - The maintainers may update this policy at any time.
 
-For enterprise inquiries, pilots, or partnership discussions, contact: hello@krushak.app
+For enterprise inquiries, pilots, or partnership discussions, contact: malkani.ai024@gmail.com
