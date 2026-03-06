@@ -2,6 +2,7 @@
 
 [![Visit Krushak SmartSell](https://img.shields.io/badge/Visit-krushak.app-3A7BD5?style=flat-square&logo=microsoft-edge&logoColor=white)](https://krushak.app)
 [![Status](https://img.shields.io/badge/Status-Live%20Pilot-success?style=flat-square)](https://krushak.app)
+[![License](https://img.shields.io/badge/License-Proprietary-critical?style=flat-square)](LICENSE)
 
 A graph-native command center that helps agri-enterprises decide **where to buy, how much to move, and what to sell** in minutes instead of weeks. Krushak SmartSell fuses mandi transactions, logistics constraints, and weather signals into a unified knowledge graph so planning, procurement, and fulfillment stay aligned around trustworthy forecasts.
 
@@ -27,7 +28,7 @@ A graph-native command center that helps agri-enterprises decide **where to buy,
 
 ## Modeling sketch
 $$
-y_{t+h} = f_\theta\big(G_t, X_t, \text{rolling}(X), \text{market\_context}\big) = \underbrace{\mathrm{GNN}(G_t, X_t)}_{\text{spatial lift}} + \underbrace{\mathrm{TS}(X_t)}_{\text{temporal baseline}}
+y_{t+h} = \mathrm{GNN}(G_t, X_t) + \mathrm{TS}(X_t)
 $$
 
 ## Tech stack
@@ -62,5 +63,9 @@ $$
 - **See it live**: [krushak.app](https://krushak.app)
 - **Questions / pilots**: write to hello@krushak.app
 - **Enterprise rollouts**: tailored deployments on your virtual network with managed model updates.
+
+## License and contributions
+- **License**: Proprietary. See [LICENSE](LICENSE).
+- **Contributions**: External contributions are not accepted. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 > _This repo intentionally stays light—reach out if you need the private deployment notes, infrastructure modules, or playbooks tailored to your org._
